@@ -1,9 +1,27 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 body{
     font-family: "Open Sans", sans-serif;
 }
+img{
+    width: 100%;
+}
 ul{
     list-style: none;
+    display: inline-block;
 }
 .debug{
     border: 1.5px solid green;
 }
+/* main */
+.avatar{
+    width: 200px;
+}
+.hero-text{
+    text-align: center;
+}
+
+/* icons */
