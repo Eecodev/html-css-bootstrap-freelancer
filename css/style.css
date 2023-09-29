@@ -14,7 +14,7 @@ ul{
     display: inline-block;
 }
 .debug{
-    border: 1.5px solid green;
+    border: 1.5px solid red;
 }
 /* main */
 .avatar{
@@ -22,6 +22,14 @@ ul{
 }
 .hero-text{
     text-align: center;
+}
+.about{
+    text-align: center;
+}
+.download{
+    color: white;
+    text-decoration: none;
+    border: 1px solid white;
 }
 
 /* icons */
