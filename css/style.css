@@ -23,6 +23,9 @@ ul{
 .hero-text{
     text-align: center;
 }
+.portfolio-text{
+    text-align: center;
+}
 .about{
     text-align: center;
 }
@@ -31,5 +34,17 @@ ul{
     text-decoration: none;
     border: 1px solid white;
 }
+.contact-me{
+    text-align: center;
+}
+.location, .web, .freelancer{
+    text-align: center;
+}
+
+/* footer */
+.footer-bottom{
+    text-align: center;
+}
+
 
 /* icons */
