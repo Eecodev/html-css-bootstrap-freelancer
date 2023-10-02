@@ -4,15 +4,15 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <title>Spotify</title>
+    <title>Bootstrap</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
     <header class="bg-dark text-light text-uppercase">
-        <nav class="container d-flex justify-content-between align-content-center py-2 debug">
-            <h1 class="debug">Start Bootstrap</h1>
-            <ul class="d-flex debug">
+        <nav id="navbar" class="container d-flex justify-content-between align-content-center py-2">
+            <h1 class="border">Start Bootstrap</h1>
+            <ul class="d-flex border">
                 <li class="p-1">Portfolio</li>
                 <li class="p-1">About</li>
                 <li class="p-1">Contact</li>
@@ -20,7 +20,7 @@
         </nav>
     </header>
     <main>
-        <section id="hero" class="bg-success text-light text-uppercase text-center">
+        <section id="hero" class="my-bg-teal text-light text-uppercase text-center">
             <div class="container py-5">
                 <div class="d-flex justify-content-center">
                     <img class="avatar" src="./bootstrap_freelancer/img/avatar.svg" alt="avatar">
@@ -33,46 +33,50 @@
             </div>
         </section>
         <section id="portfolio" class="bg-white text-uppercase text-center">
-            <div class="container py-5">
-                <div class="portfolio-text">
+            <div class="container">
                     <h2>Portfolio</h2>
                     <i class="fa-solid fa-star"></i>
-                </div>
-                <div class="row py-3">
+                <div class="row gy-4">
                     <div class="col-12 col-md-6 col-lg-4 border">
                         <div class="my-img-container">
-                            <img class="rounded-3" src="./bootstrap_freelancer/img/cabin.png" alt="">
+                            <img src="./bootstrap_freelancer/img/cabin.png" alt="">
+                            <div class="overlay"></div>
                         </div>
                     </div>
                     <div class="col-12 col-md-6 col-lg-4 border">
                         <div class="my-img-container">
-                            <img class="rounded-3" src="./bootstrap_freelancer/img/cake.png" alt="">
+                            <img src="./bootstrap_freelancer/img/cake.png" alt="">
+                            <div class="overlay"></div>
                         </div>
                     </div>
                     <div class="col-12 col-md-6 col-lg-4 border">
                         <div class="my-img-container">
-                            <img class="rounded-3" src="./bootstrap_freelancer/img/circus.png" alt="">
+                            <img src="./bootstrap_freelancer/img/circus.png" alt="">
+                            <div class="overlay"></div>
                         </div>
                     </div>
                     <div class="col-12 col-md-6 col-lg-4 border">
                         <div class="my-img-container">
-                            <img class="rounded-3" src="./bootstrap_freelancer/img/game.png" alt="">
+                            <img src="./bootstrap_freelancer/img/game.png" alt="">
+                            <div class="overlay"></div>
                         </div>
                     </div>
                     <div class="col-12 col-md-6 col-lg-4 border">
                         <div class="my-img-container">
-                            <img class="rounded-2" src="./bootstrap_freelancer/img/safe.png" alt="">
+                            <img src="./bootstrap_freelancer/img/safe.png" alt="">
+                            <div class="overlay"></div>
                         </div>
                     </div>
                     <div class="col-12 col-md-6 col-lg-4 border">
                         <div class="my-img-container">
-                            <img class="rounded-2" src="./bootstrap_freelancer/img/submarine.png" alt="">
+                            <img src="./bootstrap_freelancer/img/submarine.png" alt="">
+                            <div class="overlay"></div>
                         </div>
                     </div>
                 </div>
             </div>
         </section>
-        <section id="about" class="bg-success text-uppercase text-center">
+        <section id="about" class="my-bg-teal text-uppercase text-center">
             <div class="container py-5">
                 <div class="about">
                   <h2>About</h2>

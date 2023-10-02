@@ -6,6 +6,12 @@
 body{
     font-family: "Open Sans", sans-serif;
 }
+.my-bg-teal{
+    background-color: var(--bs-teal);
+}
+#hero h1{
+    padding: 20px 0;
+}
 #portfolio img{
     width: 100%;
     display: block;
@@ -14,12 +20,29 @@ ul{
     list-style: none;
     display: inline-block;
 }
-.debug{
-    border: 1.5px solid red;
-}
 /* main */
 .avatar{
     width: 200px;
+}
+.my-img-container{
+    overflow: hidden;
+    border-radius: 10px;
+    position: relative;
+    cursor: pointer; 
+}
+.my-img-container:hover:after{
+    content: '+';
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background-color: #20c9967b;
+    color: white;
+    font-size: 5em;
 }
 .download{
     color: white;
