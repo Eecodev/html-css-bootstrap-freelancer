@@ -10,13 +10,19 @@
 </head>
 <body>
     <header class="bg-dark text-light text-uppercase">
-        <nav id="navbar" class="container d-flex justify-content-between align-content-center py-2">
-            <h2>Start Bootstrap</h2>
-            <ul class="d-flex border">
-                <li class="p-1">Portfolio</li>
-                <li class="p-1">About</li>
-                <li class="p-1">Contact</li>
-            </ul>
+        <nav class="navbar navbar-expand-lg bg-dark" data-bs-theme="dark">
+            <div class="container">
+                <a class="navbar-brand" href="#">Start Bootstrap</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#my-nav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+                </button>
+                <ul class="d-flex border">
+                    <li class="p-1">Portfolio</li>
+                    <li class="p-1">About</li>
+                    <li class="p-1">Contact</li>
+                </ul>
+            </div>
         </nav>
     </header>
     <main>
@@ -30,13 +36,13 @@
                     <div class="my-star d-flex justify-content-center align-items-center">
                         <i class="fa-solid fa-star"></i>
                     </div>
-                    <h5 class="display-6">Graphic Artist - Web Designer - Illustrator</h5>
+                    <h5 class="display-7">Graphic Artist - Web Designer - Illustrator</h5>
                 </div>
             </div>
         </section>
-        <section id="portfolio" class="bg-white text-uppercase text-center">
+        <section id="portfolio" class="bg-white text-center">
             <div class="container">
-                    <h2>Portfolio</h2>
+                    <h2 class="display-2 fw-bold text-uppercase">Portfolio</h2>
                     <div class="my-star d-flex justify-content-center align-items-center">
                         <i class="fa-solid fa-star"></i>
                     </div>
@@ -80,25 +86,31 @@
                 </div>
             </div>
         </section>
-        <section id="about" class="my-bg-teal text-uppercase text-center">
-            <div class="container py-5">
-                <div class="about">
-                  <h2>About</h2>
-                    <div class="my-star d-flex justify-content-center align-items-center">
-                        <i class="fa-solid fa-star"></i>
-                    </div>
-                    <div class="d-flex justify-content-center">
-                        <p class="debug">Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt deleniti, fuga dolore animi distinctio iste ratione? Aliquam autem temporibus ipsa reiciendis aut commodi possimus at quibusdam ullam? Adipisci, excepturi quaerat!</p>
-                        <p class="debug">Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt deleniti, fuga dolore animi distinctio iste ratione? Aliquam autem temporibus ipsa reiciendis aut commodi possimus at quibusdam ullam? Adipisci, excepturi quaerat!</p>
-                    </div>
-                    <a class="download" href="#" role="button">Download</a>  
+        <section id="about" class="my-bg-teal py-5">
+            <div class="container text-center text-white">
+                <h2 class="display-2 fw-bold text-uppercase">About</h2>
+
+                <div class="my-star d-flex justify-content-center align-items-center mb-4">
+                    <i class="fa-solid fa-star"></i>
                 </div>
+
+                <div class="row text-start py-4">
+                    <div class="col-12 col-md-6">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt deleniti, fuga dolore animi distinctio iste ratione? Aliquam autem temporibus ipsa reiciendis aut commodi possimus at quibusdam ullam? Adipisci, excepturi quaerat!
+                    </div>
+                    <div class="col-12 col-md-6">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt deleniti, fuga dolore animi distinctio iste ratione? Aliquam autem temporibus ipsa reiciendis aut commodi possimus at quibusdam ullam? Adipisci, excepturi quaerat!
+                    </div>
+                </div>
+                <a href="#" class="btn btn-outline-light">
+                    <i class="fa-solid fa-download"></i> Download
+                </a>  
             </div>
         </section>
-        <section id="contact-me" class="bg-white text-uppercase text-center">
+        <section id="contact-me" class="bg-white text-center">
             <div class="container py-5">
                 <div class="contact-me">
-                    <h2>Contact me</h2>
+                    <h2 class="display-2 fw-bold text-uppercase">Contact me</h2>
                     <div class="my-star d-flex justify-content-center align-items-center">
                         <i class="fa-solid fa-star"></i>
                     </div>

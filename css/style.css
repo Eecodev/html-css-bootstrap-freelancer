@@ -17,8 +17,15 @@ body{
     height: 3px;
     margin: 0 10px;
 }
+section.bg-white .my-star:after,
+section.bg-white .my-star:before{
+    background-color: black;
+}
 #hero h1{
     padding: 20px 0;
+}
+#hero img{
+    width: 250px;
 }
 #portfolio img{
     width: 100%;
@@ -52,10 +59,14 @@ ul{
     color: white;
     font-size: 5em;
 }
-.download{
-    color: white;
-    text-decoration: none;
+.my-btn{
     border: 1px solid white;
+    color: white;
+}
+.my-btn:hover{
+    border: 1px solid white;
+    color: black;
+    background-color: white;
 }
 /* footer */
 
