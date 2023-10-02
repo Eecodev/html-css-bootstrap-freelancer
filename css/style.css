@@ -9,6 +9,14 @@ body{
 .my-bg-teal{
     background-color: var(--bs-teal);
 }
+.my-star:after, .my-star:before{
+    content: '';
+    display: block;
+    width: 15%;
+    background-color: white;
+    height: 3px;
+    margin: 0 10px;
+}
 #hero h1{
     padding: 20px 0;
 }
