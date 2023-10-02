@@ -6,8 +6,9 @@
 body{
     font-family: "Open Sans", sans-serif;
 }
-img{
+#portfolio img{
     width: 100%;
+    display: block;
 }
 ul{
     list-style: none;
@@ -20,31 +21,13 @@ ul{
 .avatar{
     width: 200px;
 }
-.hero-text{
-    text-align: center;
-}
-.portfolio-text{
-    text-align: center;
-}
-.about{
-    text-align: center;
-}
 .download{
     color: white;
     text-decoration: none;
     border: 1px solid white;
 }
-.contact-me{
-    text-align: center;
-}
-.location, .web, .freelancer{
-    text-align: center;
-}
-
 /* footer */
-.footer-bottom{
-    text-align: center;
-}
+
 
 
 /* icons */
